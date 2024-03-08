@@ -1,0 +1,311 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    width: auto;
+}
+
+.oxygen-light {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.oxygen-normal {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lora-regular-italic {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lora-regular {
+    font-family: "Lora", serif;
+    font-weight: 90;
+}
+
+.lora-bold {
+    font-family: "Lora", serif;
+    font-weight: 700;
+}
+
+header {
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    background: radial-gradient(circle at center, #5cc489 0%, #ffffff 80%);}
+
+h1 {
+    color: #000;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+    font-size: 50px;
+    font-style: italic;
+    line-height: 51px;
+}
+
+
+nav {
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.but1 {
+    font-size: 15px;
+    height: auto;
+    width: 300px;
+    color: black;
+    border: white;
+    background-color: white;
+    padding: 12px 31px;
+    margin: 10px 10px;
+    transition: background-color .2s, color .2s;
+    border-radius: 20px;
+}
+
+.but1:hover {
+    border: 2px solid black;
+}
+
+.Roles1 {
+    display:flex;
+}
+
+.text1 {
+    max-width: 50%;
+    margin: 10px 20px;
+}
+
+.titlet1 {
+    font-size: 38px;
+}
+
+.container1 {
+    margin: 20px;
+    width: 100%;
+    max-width: 940px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img1 {
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cardimg1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.intext {
+    margin-bottom: 24px;
+    line-height: 1.8;
+}
+
+.quotes {
+    border-left: 3px solid #000;
+    padding-left: 10px;
+}
+
+.subh1 {
+    color: #000;
+    margin-bottom: 30px;
+    font-family: Oxygen, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}  
+
+/* dropdown button */
+.containerdd {
+    flex-direction: row;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    width: auto;
+    background-color: #5cc489;
+    color: black;
+    padding: 16px 32px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+}
+    
+  /* dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px; 
+}
+  
+  /* links inside the dropdown */
+.dropdown-content a {
+    text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  /* show the dropdown menu on focus */
+.dropdown .dropbtn:focus + .dropdown-content {
+    display: block;
+}
+  
+  /* change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+  /* add a background color to the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #5cc489;
+}
+
+.title2 {
+    border: 2px black solid;
+    border-radius: 30px;
+    margin: 10px 16px 20px 20px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: radial-gradient(circle at center, #5cc489 0%, #ffffff 80%);
+}
+
+.title3 {
+    border: 2px black solid;
+    border-radius: 30px;
+    margin: 10px 16px 20px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: radial-gradient(circle at center, #ff46ee 0%, #ffffff 80%);
+}
+
+.title4 {
+    font-size: 40px;
+}
+
+.subtitle2 {
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.footer {
+    margin: auto 20px;
+    border: 6px solid #5cc489;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #6292f3; 
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    text-decoration: underline; 
+}
+
+@media screen and (max-width: 991px) {
+    .container1 {
+        flex-direction: column;
+        margin: auto auto;
+    }
+
+    .img1 {
+        max-width: 100%;
+        max-height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: auto 5%;
+    }
+
+    .text1 {
+        max-width: 100%;    
+    }
+
+    .cardimg, .cardimg1 {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .text1 {
+        max-width: 100%;    
+    }
+    .title1, .title4 {
+        font-size: 30px;
+    }
+
+    .footer-content {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .subhead1 {
+        line-height: 27px;
+    }
+    .container1 {
+        max-width: none;
+    }
+
+    .dropbtn {
+        font-size: 15px;
+    }
+}
